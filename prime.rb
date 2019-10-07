@@ -1,5 +1,5 @@
 def prime?(int)
-  if int < 0
+  if int <= 0
     false
   else
     divisors = 2...(int/2)
